@@ -1,0 +1,25 @@
+{
+    "name": "espe/magento2-block-ip",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/checkout": "100.4.*"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+            "Espe\\BlockIp\\": ""
+        }
+    }
+}
